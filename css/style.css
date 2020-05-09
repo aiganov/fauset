@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-medium-webfont.woff2") format("woff2"), url("../fonts/montserrat-medium-webfont.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat-semibold-webfont.woff2") format("woff2"), url("../fonts/montserrat-semibold-webfont.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.btn-donate {
+  width: 148px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 500;
+  background: #3366cc;
+  border: none;
+  border-radius: 22px;
+}
+.header {
+  height: 85px;
+}
+.header-banner {
+  height: 217px;
+  background: #4d6fd7;
+}
+.title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.desc {
+  color: #c8c9ee;
+  font-size: 18px;
+}
+.main {
+  margin-top: 39px;
+  margin-bottom: 30px;
+}
+.banner-left a:hover,
+.banner-right a:hover,
+.logo:hover {
+  opacity: 0.5;
+}
+.nav-tabs .nav-link {
+  color: #4d6fd7;
+}
+.all-count {
+  padding: 3px 6px;
+  color: #fff;
+  font-weight: 500;
+  background: #777777;
+  border-radius: 9px;
+}
+.table tbody tr:nth-child(odd) {
+  background: #f9f9f9;
+}
+.table tbody tr td:first-child {
+  color: #4d6fd7;
+  font-weight: 600;
+}
+.table thead tr th {
+  border-top: none;
+  font-weight: 600;
+}
+.table-name-width {
+  width: 60%;
+}
+.btn-visit {
+  padding: 2px 8px;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 22px;
+  }
+}
